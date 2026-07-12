@@ -1,14 +1,21 @@
-## Hi there 👋
+# 안녕하세요, 유지혜입니다 👋
 
-<!--
-**yujh404/yujh404** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+경기오산소프트웨어고등학교에 재학 중인 개발자 지망생입니다.
 
-Here are some ideas to get you started:
+새로운 기술을 배우고 직접 만들어 보는 과정을 좋아합니다.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
--->
+앞으로 이곳에 공부하며 만든 프로젝트와 다양한 작업물을 차근차근 기록할 예정입니다.
+
+## About Me
+
+- 🏫 경기오산소프트웨어고등학교 재학 중
+- 🌱 꾸준히 배우며 성장하는 중
+- 💻 아이디어를 직접 구현하고 기록하는 것을 좋아합니다
+
+## What You'll Find Here
+
+- 수업과 학습 과정에서 만든 프로젝트
+- 새롭게 배운 기술을 활용한 개인 작업물
+- 문제를 해결하며 쌓아 가는 개발 기록
+
+잘 부탁드립니다! 😊
