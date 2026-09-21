@@ -19,3 +19,10 @@
 - 문제를 해결하며 쌓아 가는 개발 기록
 
 잘 부탁드립니다! 😊
+
+## 📊 GitHub Stats
+
+![yujh404's profile details](https://raw.githubusercontent.com/yujh404/yujh404/summary/profile-summary-card-output/transparent/0-profile-details.svg)
+
+![yujh404's most commit language](https://raw.githubusercontent.com/yujh404/yujh404/summary/profile-summary-card-output/transparent/2-most-commit-language.svg)
+![yujh404's GitHub stats](https://raw.githubusercontent.com/yujh404/yujh404/summary/profile-summary-card-output/transparent/3-stats.svg)
