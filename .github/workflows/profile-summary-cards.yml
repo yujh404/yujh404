@@ -20,5 +20,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: yujh404
-          BRANCH_NAME: main
+          BRANCH_NAME: summary
           AUTO_PUSH: true
