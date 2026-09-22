@@ -17,10 +17,6 @@ jobs:
           ref: summary
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          # Must be a PAT, not the built-in GITHUB_TOKEN: the Actions installation
-          # token cannot read user-scoped GraphQL fields (contributionsCollection),
-          # so 0-profile-details and 3-stats fail with
-          # "Resource not accessible by integration".
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
         with:
           USERNAME: yujh404
