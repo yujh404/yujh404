@@ -13,12 +13,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: summary
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          # Default token covers public stats. For private contributions,
-          # replace with a PAT (read:user scope) stored as a repository secret.
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Must be a PAT, not the built-in GITHUB_TOKEN: the Actions installation
+          # token cannot read user-scoped GraphQL fields (contributionsCollection),
+          # so 0-profile-details and 3-stats fail with
+          # "Resource not accessible by integration".
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
         with:
           USERNAME: yujh404
-          BRANCH_NAME: summary
           AUTO_PUSH: true
